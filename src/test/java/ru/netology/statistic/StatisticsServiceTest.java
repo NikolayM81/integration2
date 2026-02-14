@@ -19,8 +19,8 @@ public class StatisticsServiceTest {
     void findMax2() {
         ru.netology.statistic.StatisticsService service = new ru.netology.statistic.StatisticsService();
 
-        long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 15, 11, 12};
-        long expected = 15;
+        long[] incomesInBillions = {12, 5, 8, 4, 5, 3, 8, 6, 16, 11, 12};
+        long expected = 16;
 
         long actual = service.findMax(incomesInBillions);
 
